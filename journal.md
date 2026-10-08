@@ -6,3 +6,11 @@ Today, we started with researching the parts that will be in our PCB for the RC 
 Lapse: https://lapse.hackclub.com/timelapse/_cHRpcqyOjym
 
 <img width="1157" height="517" alt="image" src="https://github.com/user-attachments/assets/223b3acc-eea9-44bb-8ead-8dd93705f6e3" />
+
+# 10/6/2026 Added buck-boost converted + wired it along with USB!! (Arya: 1hr)
+
+Arya: Today, I did some more research on the things that will be needed for the PCB controller board of the actual RC car. I added a buck-boost converter to it and then finished wiring it along with the USB-C port! I was actually going to use an LDO, but I remembered that we used a buck-boost with our last project and I did not know the difference so I did some research with AI and learnt that a LDO only decreases the voltage while a buck-boost can both decrease and increase the voltage and I went with that because the battery is going to have fluctuating voltage based off the amount of charge left. I then read through some of its datasheet and then added parts. It needed a thing called an inductor, which I don't understand too much, but I also used some AI to help me understand that. I then looked through the list of the parts used on the example diagram on the datasheet and used the same model of the inductor from the datasheet. I also did wire the USB-C port today, there was nothing too interesting other than the fact that I had to do a 5.1k Ohm pull-down on both of the CC pins so that the port would receive power from a USB-C PD charger, which is a protocol that many chargers use now.  I also did add some decoupling capacitors to the buck-boost converter as well and could not find the exact model, but I did find a different brand that did have the exact same specifications, so I deciced to go with that. I should get plenty more of the wiring and other things done when I work on this next time!
+
+Lapse: https://lapse.hackclub.com/timelapse/hKrlQN9dlEar
+
+<img width="1236" height="609" alt="image" src="https://github.com/user-attachments/assets/90ccb4e9-31a0-4d07-bec4-017e2ac3cbbb" />
