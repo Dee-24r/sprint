@@ -14,3 +14,7 @@ Arya: Today, I did some more research on the things that will be needed for the 
 Lapse: https://lapse.hackclub.com/timelapse/hKrlQN9dlEar
 
 <img width="1236" height="609" alt="image" src="https://github.com/user-attachments/assets/90ccb4e9-31a0-4d07-bec4-017e2ac3cbbb" />
+
+# 10/8/2026 Finished wiring the TP4056!! (Arya: 30 mins)
+
+Arya: Today, I did not get too much work, but I did manage to finish the wiring of the TP4056, the battery charging module, on the schematic! I decided to just use the wiring from our previous project that used the same battery charger, and I swapped the original 10uF capacitors and replaced them with the 10uF capacitors from the buck-boost converter so that we would have one brand of capacitors for the same value which can make PCBA simpler. We were also talking about what else to do, and Funmi might add a gyroscope to the schematic for detecting the turning of the car. A example gyroscope, like the MPU-6050, only measures the velocity of the turning so we might have to put in code that calculates the direction of the car by reading the velocity form the gyroscope and doing calculations with it. I will try to get more work on this the next time that I work on this, and if I do not know what to do with the schematic for the RC car controller, I might just start working on the schematic for the ESP-NOW remote of the car!
