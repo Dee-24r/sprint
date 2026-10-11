@@ -41,6 +41,8 @@ https://lapse.hackclub.com/timelapse/FW4wM0PNGguM
 <img width="216" height="136" alt="image" src="https://github.com/user-attachments/assets/3035d9c9-ddbd-4d51-8884-6afb75caf861" />
 <img width="182" height="174" alt="image" src="https://github.com/user-attachments/assets/6ab3f037-c314-4f23-9d1c-7afedbbf6d58" />
 <img width="301" height="187" alt="image" src="https://github.com/user-attachments/assets/a0c2dfaf-c12c-48be-809d-af53e7cc4af4" />
+<img width="1382" height="647" alt="image" src="https://github.com/user-attachments/assets/808b08ae-269a-4e69-b850-3950f48b5a75" />
+<img width="2362" height="1672" alt="SCH_Sprint-Mainboard_1-P1_2026-10-09" src="https://github.com/user-attachments/assets/017ec769-4af8-462e-a644-2e6513ce2435" />
 
 # 10/10/2026 Finished schematic for mainboard + found parts for remote control schematic!! (Arya: 3 hrs)
 
@@ -48,6 +50,6 @@ Arya: Today, we managed to finish the schematic for the mainboard module! We sta
 
 Lapse: https://lapse.hackclub.com/timelapse/jUbFVXi4biCB
 
-<img width="1382" height="647" alt="image" src="https://github.com/user-attachments/assets/808b08ae-269a-4e69-b850-3950f48b5a75" />
-<img width="2362" height="1672" alt="SCH_Sprint-Mainboard_1-P1_2026-10-09" src="https://github.com/user-attachments/assets/017ec769-4af8-462e-a644-2e6513ce2435" />
+<img width="2411" height="1672" alt="SCH_Sprint-Mainboard_1-P1_2026-10-10 (1)" src="https://github.com/user-attachments/assets/90d878ec-7472-45f2-aa72-125d033b7dee" />
+<img width="376" height="358" alt="image" src="https://github.com/user-attachments/assets/4391add3-4c80-495f-b523-c4aa908b4f7e" />
 
