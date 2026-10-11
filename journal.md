@@ -36,6 +36,14 @@ Funmi: I wired the gyro sensor pins referencing the schematic and also wired som
 If my teammate didn't mention, it's now gonna be a MESSENGER CAR! So, like we don't have to see it to control it.. we can send it on an errand, like deliver this very tiny thing to someone (i don't mean it's robotics, it just moves around)
 
 Timelapse: https://lapse.hackclub.com/timelapse/rE-SwynycOkj
+https://lapse.hackclub.com/timelapse/FW4wM0PNGguM
+
+<img width="216" height="136" alt="image" src="https://github.com/user-attachments/assets/3035d9c9-ddbd-4d51-8884-6afb75caf861" />
+<img width="182" height="174" alt="image" src="https://github.com/user-attachments/assets/6ab3f037-c314-4f23-9d1c-7afedbbf6d58" />
+<img width="301" height="187" alt="image" src="https://github.com/user-attachments/assets/a0c2dfaf-c12c-48be-809d-af53e7cc4af4" />
+
+
+
 
 <img width="1382" height="647" alt="image" src="https://github.com/user-attachments/assets/808b08ae-269a-4e69-b850-3950f48b5a75" />
 <img width="2362" height="1672" alt="SCH_Sprint-Mainboard_1-P1_2026-10-09" src="https://github.com/user-attachments/assets/017ec769-4af8-462e-a644-2e6513ce2435" />
