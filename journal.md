@@ -67,3 +67,18 @@ We're moving onto pcb for the car's mainboard, and to the schematic of the indoo
 
 Timelapse: https://lapse.hackclub.com/timelapse/Yt7Ejcd5DNHG
 
+
+**11th October 2026**
+
+I started placing the components for the outdoor module! My teammate said he wanted the car to be as small as possible but idk whatever! it's currently about 55mm x 60mm
+
+I also fixed many issues in the schematic.. I realised I mistakenly added 1.27 mm header pins for the motors instead of 2.54 mm, so I changed that!! Also, cuz of how Arya and I added our power labels (3v3) differently (power symbols and net labels for 3v3), I had to change everything to be 3v3 net label
+
+I finished placing all the components in reasonable places...and had to do some research for it (never dealt w motors before)I pleaced the headers fro the motors at the edges of the pcb. I also placed the obstacle sensors at their respective front, left and right.. close to the edges.. only thing is front ain't in the middle... idt that's an issue tho!
+
+All for now! Gonna start wiring once I reboot m lapii!
+Timelapse: https://lapse.hackclub.com/timelapse/naYPkAaK_N34
+
+![net labels](images/corrected-net-labels.png)
+
+![pcb](images/mainboard-pcb.png)
