@@ -42,8 +42,11 @@ https://lapse.hackclub.com/timelapse/FW4wM0PNGguM
 <img width="182" height="174" alt="image" src="https://github.com/user-attachments/assets/6ab3f037-c314-4f23-9d1c-7afedbbf6d58" />
 <img width="301" height="187" alt="image" src="https://github.com/user-attachments/assets/a0c2dfaf-c12c-48be-809d-af53e7cc4af4" />
 
+# 10/10/2026 Finished schematic for mainboard + found parts for remote control schematic!! (Arya: 3 hrs)
 
+Arya: Today, we managed to finish the schematic for the mainboard module! We started off with wiring some of the parts and then started wiring things to the GPIOs of the ESP32. I went and found a good source that gave the pinouts for the GPIO of the ESP32-S3, and I used that chart to connect the items to the best GPIOs available to ensure that it would not interfere with the normal function of the ESP32. I also did add another motor driver as well to the schematic since I realized that we also needed out motors to spin in reverse to go backwards. I then realized that the motor can only go in one direction one of the pins is connected to GND directly. So, I connected the positive and negative of the motors one of the two outputs in the motor driver so that it could drive one pin low and the other high (and also in the reverse order) to allow for our car to be able to move in the ways we intended it to. We used header pins to be able connect the motors to the mainboard. I then went to search for some joysticks to use on the remote-control module, as I could not find one that would match our intended expectations for it. I then did some more searching and a lot of looking and then found a decent joystick that met our requirements. We also decided to do a single-hand controller design instead of a game controller-like design so that we only need one joystick and a smaller PCB. Funmi will add decoupling capacitors to the schematic for general power stability, but other than that, we are completely (hopefully!) done with the schematic for the mainboard!
 
+Lapse: https://lapse.hackclub.com/timelapse/jUbFVXi4biCB
 
 <img width="1382" height="647" alt="image" src="https://github.com/user-attachments/assets/808b08ae-269a-4e69-b850-3950f48b5a75" />
 <img width="2362" height="1672" alt="SCH_Sprint-Mainboard_1-P1_2026-10-09" src="https://github.com/user-attachments/assets/017ec769-4af8-462e-a644-2e6513ce2435" />
