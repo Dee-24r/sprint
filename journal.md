@@ -53,3 +53,17 @@ Lapse: https://lapse.hackclub.com/timelapse/jUbFVXi4biCB
 <img width="2411" height="1672" alt="SCH_Sprint-Mainboard_1-P1_2026-10-10 (1)" src="https://github.com/user-attachments/assets/90d878ec-7472-45f2-aa72-125d033b7dee" />
 <img width="376" height="358" alt="image" src="https://github.com/user-attachments/assets/4391add3-4c80-495f-b523-c4aa908b4f7e" />
 
+Funmi: We finished up the car's main schematic! I finished up the wiring for the esp32.. wired the boot and enable pins and completed the gyro! I also added decoupling caps for the esp32! (all other ICs have theirs) and wired the motor pins to the esp32!
+
+We're moving onto pcb for the car's mainboard, and to the schematic of the indoor module!!
+
+![esp32](images/ESP32.png)
+
+![gyro_and_decoup](images/gyro_decoup.png)
+
+![motors](images/motors_n_drivers.png)
+
+![Car schem](images/car_mainboard.png)
+
+Timelapse: https://lapse.hackclub.com/timelapse/Yt7Ejcd5DNHG
+
