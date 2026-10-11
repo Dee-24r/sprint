@@ -19,6 +19,10 @@ Lapse: https://lapse.hackclub.com/timelapse/hKrlQN9dlEar
 
 Arya: Today, I did not get too much work, but I did manage to finish the wiring of the TP4056, the battery charging module, on the schematic! I decided to just use the wiring from our previous project that used the same battery charger, and I swapped the original 10uF capacitors and replaced them with the 10uF capacitors from the buck-boost converter so that we would have one brand of capacitors for the same value which can make PCBA simpler. We were also talking about what else to do, and Funmi might add a gyroscope to the schematic for detecting the turning of the car. A example gyroscope, like the MPU-6050, only measures the velocity of the turning so we might have to put in code that calculates the direction of the car by reading the velocity form the gyroscope and doing calculations with it. I will try to get more work on this the next time that I work on this, and if I do not know what to do with the schematic for the RC car controller, I might just start working on the schematic for the ESP-NOW remote of the car!
 
+Funmi: (Forgot to journal earlier after my two timelpases but gonna recap what I did) I searchef for and added a gyro sensor, a time of flight sensor, and a more powerful motor driver (drv8833) to change the one my teamate added! even though we're no longer using that! we're leaving it as l9110S!
+
+Timelapse: https://lapse.hackclub.com/timelapse/tBGc42Y2XFks
+
 <img width="809" height="400" alt="image" src="https://github.com/user-attachments/assets/d12d5b4e-f29c-4646-b282-5ecdfb6f7bf6" />
 
 # 10/9/2026 Almost fin schematic for mainboard + started with schematic for remote!! (Arya: 2hrs)
@@ -26,6 +30,12 @@ Arya: Today, I did not get too much work, but I did manage to finish the wiring 
 Arya: Today, we managed to almost complete the schematic for the mainboard module! The mainboard is what we are calling the board that will be on the actual RC car and control everything. We continued with everything on the PCB and we decided that we should make the car a "smart" car by also adding an autonomous feature to it. We decided to make the car autonomous by adding 3 obstacle avoidance sensors to it: one for the left, front, and right. These sensors should guide the cars and prevent it from crashing. We also added an MPU-6050 to the schematic. We also discussed on what we will do next to the mainboard, and we think that it is now almost fully done! We then started working on the remote-control schematic as well, though we did not get too much work done on it. I did copy some things over from the schematic for the mainboard, like the USB-C port and the buck-boost converter. I still have to do a bit more work on the schematic for the mainboard the next time that I work on this project, but it should then be done! And for the remote, I have also used the same ESP32-S3 from the mainboard's schematic and I also added some header pins for a SSD1306 OLED display.
 
 Lapse: https://lapse.hackclub.com/timelapse/LVJRFMl_P4IT
+
+Funmi: I wired the gyro sensor pins referencing the schematic and also wired some of the pins on the esp32 (i2c and connections to the gyro sensors)! I also added and wired header pins for the motors! We also started the remote control schematic! We're gonna put a small oled display (ssd1306) some joysticks, and it's gonna connect to the car using lora!
+
+If my teammate didn't mention, it's now gonna be a MESSENGER CAR! So, like we don't have to see it to control it.. we can send it on an errand, like deliver this very tiny thing to someone (i don't mean it's robotics, it just moves around)
+
+Timelapse: https://lapse.hackclub.com/timelapse/rE-SwynycOkj
 
 <img width="1382" height="647" alt="image" src="https://github.com/user-attachments/assets/808b08ae-269a-4e69-b850-3950f48b5a75" />
 <img width="2362" height="1672" alt="SCH_Sprint-Mainboard_1-P1_2026-10-09" src="https://github.com/user-attachments/assets/017ec769-4af8-462e-a644-2e6513ce2435" />
