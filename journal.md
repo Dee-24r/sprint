@@ -91,3 +91,24 @@ Lapse: https://lapse.hackclub.com/timelapse/UWDLgISkwjdW
 
 <img width="545" height="577" alt="image" src="https://github.com/user-attachments/assets/233ee4bf-eb97-4afc-acf8-fc923acaeb38" />
 <img width="2411" height="1672" alt="SCH_Sprint-Mainboard_1-P1_2026-10-11" src="https://github.com/user-attachments/assets/22c58a55-30a9-49a4-b790-83925cf88020" />
+
+
+Funmi: Arya destroyed my pcb layout!!! :(
+
+I wired boot and enable buttons for the esp 32 in the remote control! I also added decoupling caps for the esp32 (all other components have theirs)!
+
+I added a new gyro module to the remote control... We decided to remove the gyro we were wiring on the actual car's schematic.. cuz we decided it didn't really help anything and we would just add it to the remote control instead... but we still had to change to use a pre-made module because what we were wiring is to expensive ..like $20 so we got one off of Ali Express for like $1!
+
+Was gonna start wiring the outdoor pcb tn, but arya flushed the entire layout... and started placing components again!
+For the remote control, after adding stuff and3 running drc, i layed out just the first few items on it.. gonna finish that up tmr!!
+
+![alt text](images/mainboard-schem.png)
+
+![alt text](images/remote-pcb-wip.png)
+
+![alt text](images/car-pcb-wip.png)
+
+![alt text](images/remote-schem.png)
+
+
+lapse: https://lapse.hackclub.com/timelapse/WAclEd6y1RqA
