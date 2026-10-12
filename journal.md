@@ -82,3 +82,4 @@ Timelapse: https://lapse.hackclub.com/timelapse/naYPkAaK_N34
 ![net labels](images/corrected-net-labels.png)
 
 ![pcb](images/mainboard-pcb.png)
+
