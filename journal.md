@@ -83,3 +83,11 @@ Timelapse: https://lapse.hackclub.com/timelapse/naYPkAaK_N34
 
 ![pcb](images/mainboard-pcb.png)
 
+# 10/11/2026 Started working on mainboard PCB!! (Arya: 2 hrs)
+
+Arya: Today, we managed to start the PCB for the mainboard! We also managed to almost be finished with the schematic for the remote as well! We decided to remove the MPU6050 Gyroscope Chip from the mainboard's schematic since the chip itself was about $20, and that was way too expensive! We also added a power switch as well to the mainboard to have a better way of turning the car off without disconnecting the battery. I wired that switch up and then moved on to the PCB. We then moved on the arranging the parts of the PCB and I planned to have the left and right sensors to be angled since the main part that needs to be detected for autonomous driving is the front of the car. That made more sense than directly having the sensors face 90 degrees to the left/right. I did have some trouble with making the front of the PCB perfectly angled, but I managed to get both of them close enough! There are many things left to do for the layout, but they should be close to finished at the end of the next time that we work on this!
+
+Lapse: https://lapse.hackclub.com/timelapse/UWDLgISkwjdW
+
+<img width="545" height="577" alt="image" src="https://github.com/user-attachments/assets/233ee4bf-eb97-4afc-acf8-fc923acaeb38" />
+<img width="2411" height="1672" alt="SCH_Sprint-Mainboard_1-P1_2026-10-11" src="https://github.com/user-attachments/assets/22c58a55-30a9-49a4-b790-83925cf88020" />
