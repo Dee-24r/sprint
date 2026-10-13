@@ -124,3 +124,7 @@ Lapse: https://lapse.hackclub.com/timelapse/unsL7nMTBPji
 Funmi: We officially completed the pcb for the car's mainboard today! I started by wiring capacitors for the usbc connectors for both the mainboard and the remote cuz I didn't realise we needed to add them before.. and my teammate added capacitors for the motors cuz they're gonna be drawing a lot of power.. After we finished the pcb's new layout, we started wiring all the components, and when we were done, we added ground fills on both layers and ran DRC until we fixed all the bugs.. We're done w the mainboard and we gonna continue with the remote control's pcb tomorrow!
 
 Timelapse: https://lapse.hackclub.com/timelapse/SpdaSOPSTMvC
+
+![alt text](images/complete_mainboard_pcb.png)
+
+![alt text](images/mainboard_3d_pcb.png)
