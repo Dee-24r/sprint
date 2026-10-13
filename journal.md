@@ -1,4 +1,4 @@
-# 10/6/2026 Started this project + started with first schematic!! (Arya: 1hr 20mins)
+## 10/6/2026 Started this project + started with first schematic!! (Arya: 1hr 20mins)
 
 Arya:
 Today, we started with researching the parts that will be in our PCB for the RC car and also discussed what we should pick for our microcontroller. We decided to choose the ESP32-S3 since it supports USB-OTG and is way more powerful than the normal ESP32-Wroom. We are currently thinking about making the RC car as small as possible to make it special. And the ESP32-S3's USB-OTG compatibility will help that be smaller since there will be no need for a USB-to-Serial converter to program the chip. I also added a TP4056 for charging the battery and I also added a L9110S to the schematic since we will need a motor driver and that directly driving the motors from the ESP32 chip might not be good and might fry the chip which we do not want to happen. I also went and found a USB-C data port that had the least pins since we want to keep wiring simple.
@@ -7,7 +7,7 @@ Lapse: https://lapse.hackclub.com/timelapse/_cHRpcqyOjym
 
 <img width="1157" height="517" alt="image" src="https://github.com/user-attachments/assets/223b3acc-eea9-44bb-8ead-8dd93705f6e3" />
 
-# 10/6/2026 Added buck-boost converted + wired it along with USB!! (Arya: 1hr)
+## 10/6/2026 Added buck-boost converted + wired it along with USB!! (Arya: 1hr)
 
 Arya: Today, I did some more research on the things that will be needed for the PCB controller board of the actual RC car. I added a buck-boost converter to it and then finished wiring it along with the USB-C port! I was actually going to use an LDO, but I remembered that we used a buck-boost with our last project and I did not know the difference so I did some research with AI and learnt that a LDO only decreases the voltage while a buck-boost can both decrease and increase the voltage and I went with that because the battery is going to have fluctuating voltage based off the amount of charge left. I then read through some of its datasheet and then added parts. It needed a thing called an inductor, which I don't understand too much, but I also used some AI to help me understand that. I then looked through the list of the parts used on the example diagram on the datasheet and used the same model of the inductor from the datasheet. I also did wire the USB-C port today, there was nothing too interesting other than the fact that I had to do a 5.1k Ohm pull-down on both of the CC pins so that the port would receive power from a USB-C PD charger, which is a protocol that many chargers use now.  I also did add some decoupling capacitors to the buck-boost converter as well and could not find the exact model, but I did find a different brand that did have the exact same specifications, so I deciced to go with that. I should get plenty more of the wiring and other things done when I work on this next time!
 
@@ -15,7 +15,7 @@ Lapse: https://lapse.hackclub.com/timelapse/hKrlQN9dlEar
 
 <img width="1236" height="609" alt="image" src="https://github.com/user-attachments/assets/90ccb4e9-31a0-4d07-bec4-017e2ac3cbbb" />
 
-# 10/8/2026 Finished wiring the TP4056!! (Arya: 30 mins)
+## 10/8/2026 Finished wiring the TP4056!! (Arya: 30 mins)
 
 Arya: Today, I did not get too much work, but I did manage to finish the wiring of the TP4056, the battery charging module, on the schematic! I decided to just use the wiring from our previous project that used the same battery charger, and I swapped the original 10uF capacitors and replaced them with the 10uF capacitors from the buck-boost converter so that we would have one brand of capacitors for the same value which can make PCBA simpler. We were also talking about what else to do, and Funmi might add a gyroscope to the schematic for detecting the turning of the car. A example gyroscope, like the MPU-6050, only measures the velocity of the turning so we might have to put in code that calculates the direction of the car by reading the velocity form the gyroscope and doing calculations with it. I will try to get more work on this the next time that I work on this, and if I do not know what to do with the schematic for the RC car controller, I might just start working on the schematic for the ESP-NOW remote of the car!
 
@@ -25,7 +25,7 @@ Timelapse: https://lapse.hackclub.com/timelapse/tBGc42Y2XFks
 
 <img width="809" height="400" alt="image" src="https://github.com/user-attachments/assets/d12d5b4e-f29c-4646-b282-5ecdfb6f7bf6" />
 
-# 10/9/2026 Almost fin schematic for mainboard + started with schematic for remote!! (Arya: 2hrs)
+## 10/9/2026 Almost fin schematic for mainboard + started with schematic for remote!! (Arya: 2hrs)
 
 Arya: Today, we managed to almost complete the schematic for the mainboard module! The mainboard is what we are calling the board that will be on the actual RC car and control everything. We continued with everything on the PCB and we decided that we should make the car a "smart" car by also adding an autonomous feature to it. We decided to make the car autonomous by adding 3 obstacle avoidance sensors to it: one for the left, front, and right. These sensors should guide the cars and prevent it from crashing. We also added an MPU-6050 to the schematic. We also discussed on what we will do next to the mainboard, and we think that it is now almost fully done! We then started working on the remote-control schematic as well, though we did not get too much work done on it. I did copy some things over from the schematic for the mainboard, like the USB-C port and the buck-boost converter. I still have to do a bit more work on the schematic for the mainboard the next time that I work on this project, but it should then be done! And for the remote, I have also used the same ESP32-S3 from the mainboard's schematic and I also added some header pins for a SSD1306 OLED display.
 
@@ -44,7 +44,7 @@ https://lapse.hackclub.com/timelapse/FW4wM0PNGguM
 <img width="1382" height="647" alt="image" src="https://github.com/user-attachments/assets/808b08ae-269a-4e69-b850-3950f48b5a75" />
 <img width="2362" height="1672" alt="SCH_Sprint-Mainboard_1-P1_2026-10-09" src="https://github.com/user-attachments/assets/017ec769-4af8-462e-a644-2e6513ce2435" />
 
-# 10/10/2026 Finished schematic for mainboard + found parts for remote control schematic!! (Arya: 3 hrs)
+## 10/10/2026 Finished schematic for mainboard + found parts for remote control schematic!! (Arya: 3 hrs)
 
 Arya: Today, we managed to finish the schematic for the mainboard module! We started off with wiring some of the parts and then started wiring things to the GPIOs of the ESP32. I went and found a good source that gave the pinouts for the GPIO of the ESP32-S3, and I used that chart to connect the items to the best GPIOs available to ensure that it would not interfere with the normal function of the ESP32. I also did add another motor driver as well to the schematic since I realized that we also needed out motors to spin in reverse to go backwards. I then realized that the motor can only go in one direction one of the pins is connected to GND directly. So, I connected the positive and negative of the motors one of the two outputs in the motor driver so that it could drive one pin low and the other high (and also in the reverse order) to allow for our car to be able to move in the ways we intended it to. We used header pins to be able connect the motors to the mainboard. I then went to search for some joysticks to use on the remote-control module, as I could not find one that would match our intended expectations for it. I then did some more searching and a lot of looking and then found a decent joystick that met our requirements. We also decided to do a single-hand controller design instead of a game controller-like design so that we only need one joystick and a smaller PCB. Funmi will add decoupling capacitors to the schematic for general power stability, but other than that, we are completely (hopefully!) done with the schematic for the mainboard!
 
@@ -83,7 +83,7 @@ Timelapse: https://lapse.hackclub.com/timelapse/naYPkAaK_N34
 
 ![pcb](images/mainboard-pcb.png)
 
-# 10/11/2026 Started working on mainboard PCB!! (Arya: 2 hrs)
+## 10/11/2026 Started working on mainboard PCB!! (Arya: 2 hrs)
 
 Arya: Today, we managed to start the PCB for the mainboard! We also managed to almost be finished with the schematic for the remote as well! We decided to remove the MPU6050 Gyroscope Chip from the mainboard's schematic since the chip itself was about $20, and that was way too expensive! We also added a power switch as well to the mainboard to have a better way of turning the car off without disconnecting the battery. I wired that switch up and then moved on to the PCB. We then moved on the arranging the parts of the PCB and I planned to have the left and right sensors to be angled since the main part that needs to be detected for autonomous driving is the front of the car. That made more sense than directly having the sensors face 90 degrees to the left/right. I did have some trouble with making the front of the PCB perfectly angled, but I managed to get both of them close enough! There are many things left to do for the layout, but they should be close to finished at the end of the next time that we work on this!
 
@@ -113,10 +113,14 @@ For the remote control, after adding stuff and3 running drc, i layed out just th
 
 lapse: https://lapse.hackclub.com/timelapse/WAclEd6y1RqA
 
-# 10/12/2026 Finished the PCB for the mainboard!! (Arya: 1hr 30mins)
+### 10/12/2026 Finished the PCB for the mainboard!! (Arya: 1hr 30mins)
 
 Arya: Today, we managed to finish all of the PCB part for the mainboard! We started off with finishing the placement of the parts on the PCB, and I did have some trouble finding good placements for them, but I managed to finish that! I did get some PCB stuff done for the remote, but it was minor stuff like the outline. Now, moving back to the mainboard, we then started the wiring for the PCB! I started off with the USB D+ and D- traces and I did have some trouble with getting that to match the exact length, but I managed to at least get it into the DRC parameters with a very tiny difference in the length of the traces. We then continued to wire everything, but the GND since we will be doing a GND fill on both layers of the PCB to have good signal integrity and noise suppression. We then finished everything for the PCB! We then decided that we should add some decoupling capacitors for the motor drivers since they can draw huge amounts of power and cause huge power spikes. Adding some decoupling for the motor drivers can protect the board and all of its components. I then went back to the board and then added and wired the decoupling caps and we did not have any more DRC errors from that. I then made sure to change the outline so that there was no PCB under the antenna for the ESP32 so that it would not interfere with the wireless signals for the ESP32. We managed to get no DRC warnings and errors and now we are completely done with the PCB for the mainboard!
 
 Lapse: https://lapse.hackclub.com/timelapse/unsL7nMTBPji
 
 <img width="563" height="614" alt="image" src="https://github.com/user-attachments/assets/814ee323-e377-4f30-b057-1fafb4b293ae" />
+
+Funmi: We officially completed the pcb for the car's mainboard today! I started by wiring capacitors for the usbc connectors for both the mainboard and the remote cuz I didn't realise we needed to add them before.. and my teammate added capacitors for the motors cuz they're gonna be drawing a lot of power.. After we finished the pcb's new layout, we started wiring all the components, and when we were done, we added ground fills on both layers and ran DRC until we fixed all the bugs.. We're done w the mainboard and we gonna continue with the remote control's pcb tomorrow!
+
+Timelapse: https://lapse.hackclub.com/timelapse/SpdaSOPSTMvC
