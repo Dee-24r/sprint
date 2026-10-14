@@ -128,3 +128,10 @@ Timelapse: https://lapse.hackclub.com/timelapse/SpdaSOPSTMvC
 ![alt text](images/complete_mainboard_pcb.png)
 
 ![alt text](images/mainboard_3d_pcb.png)
+
+# 10/13/2026 Started PCB and almost finished component placement for remote!! (Arya: 1hr)
+Arya: Today, we started with the PCB and the component placement on it for the PCB for the remote control! We started off with placing the main things, like the display and the joystick. I looked up some of the dimensions of the SSD1306 OLED display module that we will be using, and I decided to do a 30x30mm square for the display. We also have a gyroscope module (MPU6050) on the PCB as well, as we chose not to do the bare chip since one bare chip costed $20, and that would be way too much. A module on AliExpress would cost about $2-3 so we decided to choose that. We plan for the module to be on the back of the PCB, but on the front. We then moved on to placing the other components like the buck-boost, ESP32-S3, USB-C port, etc. We managed to finish the placement of the big components, though! All we have left to place are the smaall capacitors and resistors on the PCB! Other than that, we should be done with the placement and be able to move on to the wiring of the PCB.
+
+Lapse: https://lapse.hackclub.com/timelapse/sQWp4wl8E-A5
+
+<img width="321" height="659" alt="image" src="https://github.com/user-attachments/assets/a4de22ff-d9a0-43cd-9f07-fb6f3b0e0d12" />
