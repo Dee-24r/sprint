@@ -135,3 +135,11 @@ Arya: Today, we started with the PCB and the component placement on it for the P
 Lapse: https://lapse.hackclub.com/timelapse/sQWp4wl8E-A5
 
 <img width="321" height="659" alt="image" src="https://github.com/user-attachments/assets/a4de22ff-d9a0-43cd-9f07-fb6f3b0e0d12" />
+
+#10/14/2026 Finished ALL PCBs and attempted to start CAD!! (Arya: 1hr)
+
+Arya: Today, I managed to start and finish the wiring for the PCB for the remote controller for the car! I also added a ground fill to the PCB. I did not manually wire any GND pins due to it since that would save a lot of time. I then went back and manually corrected the unconnected pins that the DRC gave me errors about. Other than that, we are done with the PCB-related stuff and are now ready to move on to the CAD and the code for it! I am going to plan on handling cad for the project, and I did try to start, but I did not get much done with it today. I did make a folder in Onshape and made a new document. I decided to use Onshape instead of Fusion since it supported sharing and working with others on the same document with live changes. I think the CAD for the robot will be the hardest part of the project! 
+
+Laspe: https://lapse.hackclub.com/timelapse/XaJxcq2juwkV
+
+<img width="266" height="609" alt="image" src="https://github.com/user-attachments/assets/41e3767f-3c63-4dc4-982d-74aa77671b82" />
