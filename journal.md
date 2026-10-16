@@ -143,3 +143,13 @@ Arya: Today, I managed to start and finish the wiring for the PCB for the remote
 Laspe: https://lapse.hackclub.com/timelapse/XaJxcq2juwkV
 
 <img width="266" height="609" alt="image" src="https://github.com/user-attachments/assets/41e3767f-3c63-4dc4-982d-74aa77671b82" />
+
+# 10/15/2026 Started CAD for the main car!! (Arya: 1hr 30 mins)
+
+Arya: Today, I started working on the CAD for the car! I did have a LOT of trouble with this step today, since my knowledge of CAD is really bad, but I was in a Slack huddle with a friend that was very helpful and guided me. I started off with manually going and copying the dimensions over by hand from the PCB, and that turned out to be very troublesome. I then got guided to use a thing called a DXF and then used that I used to generate an outline of my PCB into it. I also then got guided to use many Onshape tools that I have never used before. For example, I wanted to make the DXF drawing 1mm bigger on each side so that the PCB would slide in, and I used the offset tool that scaled the thing up and down. I did not get too much done, but I did manage to find the motors that we will be using, and I will try my best to implement a holder for them on the case. I will have a lot of trouble with it, but I will get through it! 
+
+[TYSM @Singh for the CAD help!!]
+
+Lapse: https://lapse.hackclub.com/timelapse/DvVS4gwDkSs4
+
+<img width="633" height="662" alt="image" src="https://github.com/user-attachments/assets/f5663c72-03f4-4601-8e45-9c524f6adfea" />
