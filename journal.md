@@ -136,6 +136,16 @@ Lapse: https://lapse.hackclub.com/timelapse/sQWp4wl8E-A5
 
 <img width="321" height="659" alt="image" src="https://github.com/user-attachments/assets/a4de22ff-d9a0-43cd-9f07-fb6f3b0e0d12" />
 
+Funmi: After my teammate laid out the edge cuts/borders for the car's remote, I placed the components, putting each capacitor, and resistor next to where they shoudl be and of course close if required!
+
+I then realised that we had to add decouplign capacitors for the usb-c port, so I did that and wired it both for the mainboard pcb and the remote we were working on. for the maindoor pcb, I also had to import changes to the pcb and after routing, I ran DRC and fixed all the errors!
+
+I then started wiring the pcb.. I wired the LDO and the battery charger!
+
+Timelapse: https://lapse.hackclub.com/timelapse/7eknokLorIzr
+
+### REMINDER TO ADD IMAGES
+
 # 10/14/2026 Finished ALL PCBs and attempted to start CAD!! (Arya: 1hr)
 
 Arya: Today, I managed to start and finish the wiring for the PCB for the remote controller for the car! I also added a ground fill to the PCB. I did not manually wire any GND pins due to it since that would save a lot of time. I then went back and manually corrected the unconnected pins that the DRC gave me errors about. Other than that, we are done with the PCB-related stuff and are now ready to move on to the CAD and the code for it! I am going to plan on handling cad for the project, and I did try to start, but I did not get much done with it today. I did make a folder in Onshape and made a new document. I decided to use Onshape instead of Fusion since it supported sharing and working with others on the same document with live changes. I think the CAD for the robot will be the hardest part of the project! 
@@ -163,3 +173,12 @@ Laspe: https://lapse.hackclub.com/timelapse/0HuaPQqpINb_
 <img width="701" height="534" alt="image" src="https://github.com/user-attachments/assets/29cbc69b-18be-4f0f-ac63-1ede3282e0cb" />
 <img width="523" height="315" alt="image" src="https://github.com/user-attachments/assets/251c5e0d-29cc-4c8d-bb19-77512bbaf68f" />
 <img width="708" height="816" alt="image" src="https://github.com/user-attachments/assets/c8400b27-39a5-4c8e-b424-84c194ca8b1d" />
+
+Funmi: So, we figured we forgot to add battery measurement for both of the PCBs. So, I did that and I had to do some research for this one to get one that isn't draining the battery too much, so I used 470k for the positive terminal and 1M fir the negative.. we might also make updates to the last pcb we did (it's still fine, but just drains battery a bit)
+
+After doing that, i had to update the pcbs for both schematics, I then wired them, and re build fills, and then I fixed all the drc errors that came up!
+
+I'm currently working on code as we speak.. and my teammate as u can see from the journals is locked in on CAD)
+
+Timelapse: https://lapse.hackclub.com/timelapse/BCGtKtVb4Dlr
+https://lapse.hackclub.com/timelapse/Op9Bf4Mek1gY
