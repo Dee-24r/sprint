@@ -153,3 +153,13 @@ Arya: Today, I started working on the CAD for the car! I did have a LOT of troub
 Lapse: https://lapse.hackclub.com/timelapse/DvVS4gwDkSs4
 
 <img width="633" height="662" alt="image" src="https://github.com/user-attachments/assets/f5663c72-03f4-4601-8e45-9c524f6adfea" />
+
+# 10/16/2026 Finished enclosure for mainboard!! (Arya: 3hrs)
+
+Arya: Today, I managed to finish the enclosure for the mainboard! I started off with continuing off from yesterday, which were the part that held the motors. I used the dimensions from the product page on AliExpress to help build that and the motors were very big so they will have to stick outside of the center part of the case. I also decided to have them lay flat since their height was pretty big. I then also added some holes in the case so that the obstacle avoidance sensor would not be obstructed by the case. I also went to assemble it, and I then used the model of the TT motors to build some holes for the screws. I went back and forth from the assembly to the parts studio in Onshape to fine tune the hole for the screw. I also made the hole 0.80mm smaller so that the screw would have some friction and stay in. I even branded the case! I did not get too much of the assembly done, as I only got the motors assembled.
+
+Laspe: https://lapse.hackclub.com/timelapse/0HuaPQqpINb_
+
+<img width="701" height="534" alt="image" src="https://github.com/user-attachments/assets/29cbc69b-18be-4f0f-ac63-1ede3282e0cb" />
+<img width="523" height="315" alt="image" src="https://github.com/user-attachments/assets/251c5e0d-29cc-4c8d-bb19-77512bbaf68f" />
+<img width="708" height="816" alt="image" src="https://github.com/user-attachments/assets/c8400b27-39a5-4c8e-b424-84c194ca8b1d" />
