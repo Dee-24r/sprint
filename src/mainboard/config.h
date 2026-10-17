@@ -13,3 +13,4 @@
 #define RIGHT_OBST 17
 #define LEFT_OBST 14
 
+#define BATT_ADC 1
