@@ -14,13 +14,7 @@ void initialise(){
     pinMode(RIGHT_OBST, INPUT);
 }
 
-#define L_MOTOR_IN_A 6
-#define L_MOTOR_IN_B 5
-
-#define R_MOTOR_IN_A 15
-#define R_MOTOR_IN_B 7
-
-void motor(int motorA, int motorB, speed){
+void moveMotor(int motorA, int motorB, int speed){
     if (speed > 0){
         analogWrite(motorA, speed);
         digitalWrite(motorB, LOW)
@@ -39,7 +33,7 @@ void motor(int motorA, int motorB, speed){
 }
 
 void move(int throttle, int steering){
-    int leftSpeed = throttle + steering
+    int leftSpeed = throttle + steering;
     int rightSpeed = throttle - steering;
 
     leftSpeed = constrain(leftSpeed, -255, 255);
@@ -49,9 +43,16 @@ void move(int throttle, int steering){
     moveMotor(R_MOTOR_A, R_MOTOR_B, rightSpeed);
 }
 
+bool retObstacle(int obstacleSensor){
+    return digitalRead(OBST_PIN);
+}
 
-// int x = analogRead(JOY_X);
-// int y = analogRead(JOY_Y);
+float readBatteryVoltage(){
+    int adc = analogRead(BATT_ADC);
+    float voltage = (adc/4095.0f) * 3.3f *1.47f;
+
+    return voltage;
+}
 
 
 // void initialise();

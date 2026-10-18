@@ -11,20 +11,12 @@ struct Control{
     bool modeButton;
 };
 
-
-struct mainboardData{
-    float batteryVoltage;
-
-    bool obstacleLeft;
-    bool obstacleRight;
-    bool obstacleFront;
-};
-
 int x = analogRead(JOY_X);
 int y = analogRead(JOY_Y);
 
 
 void initialise();
+void moveMotor(int motorA, int motorB, int speed);
 void move(int throttle, int steering);
 void switchMode();
 
