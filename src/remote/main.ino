@@ -7,7 +7,7 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 
-uint8_t carMacAddress[] = {/*fklmklkv*/}
+uint8_t carMacAddress[] = {/*MAC Address*/}
 RemoteData remote_data;
 
 bool localAutoMode = false;
@@ -44,9 +44,13 @@ void loop(){
     remote_data.steering = readSteering();
     remote_data.modeButton = readMode();
 
+    if(remote_data.modeButton && !lastButtonState){
+        localAutoMode = !localAutoMode;
+    }
+    lastButtonState = remote_data.modButton;
 
     esp_now_send(carMacAddress, (uint8_t*)&remote_data, sizeof(remote_data));
-    print_OLED(mode, throttle, steering);
+    print_OLED(mode, remote_data.throttle, remote_data.steering);
 
     delay(20);
 }

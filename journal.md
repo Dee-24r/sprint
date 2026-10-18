@@ -144,8 +144,6 @@ I then started wiring the pcb.. I wired the LDO and the battery charger!
 
 Timelapse: https://lapse.hackclub.com/timelapse/7eknokLorIzr
 
-### REMINDER TO ADD IMAGES
-
 # 10/14/2026 Finished ALL PCBs and attempted to start CAD!! (Arya: 1hr)
 
 Arya: Today, I managed to start and finish the wiring for the PCB for the remote controller for the car! I also added a ground fill to the PCB. I did not manually wire any GND pins due to it since that would save a lot of time. I then went back and manually corrected the unconnected pins that the DRC gave me errors about. Other than that, we are done with the PCB-related stuff and are now ready to move on to the CAD and the code for it! I am going to plan on handling cad for the project, and I did try to start, but I did not get much done with it today. I did make a folder in Onshape and made a new document. I decided to use Onshape instead of Fusion since it supported sharing and working with others on the same document with live changes. I think the CAD for the robot will be the hardest part of the project! 
@@ -159,6 +157,7 @@ Laspe: https://lapse.hackclub.com/timelapse/XaJxcq2juwkV
 Arya: Today, I started working on the CAD for the car! I did have a LOT of trouble with this step today, since my knowledge of CAD is really bad, but I was in a Slack huddle with a friend that was very helpful and guided me. I started off with manually going and copying the dimensions over by hand from the PCB, and that turned out to be very troublesome. I then got guided to use a thing called a DXF and then used that I used to generate an outline of my PCB into it. I also then got guided to use many Onshape tools that I have never used before. For example, I wanted to make the DXF drawing 1mm bigger on each side so that the PCB would slide in, and I used the offset tool that scaled the thing up and down. I did not get too much done, but I did manage to find the motors that we will be using, and I will try my best to implement a holder for them on the case. I will have a lot of trouble with it, but I will get through it! 
 
 [TYSM @Singh for the CAD help!!]
+Funmi: yes, ty SINGHHH!
 
 Lapse: https://lapse.hackclub.com/timelapse/DvVS4gwDkSs4
 
@@ -193,3 +192,30 @@ Lapse: https://lapse.hackclub.com/timelapse/mDmLwPSM3Rq6
 <img width="832" height="628" alt="Screenshot_17-10-2026_231727_cad onshape com" src="https://github.com/user-attachments/assets/8f9807b3-e009-4fc0-9604-ac4abd80f507" />
 <img width="954" height="430" alt="Screenshot_17-10-2026_231736_cad onshape com" src="https://github.com/user-attachments/assets/6e501080-9aa4-4ad2-8535-044d5e524ca4" />
 <img width="1010" height="716" alt="Screenshot_17-10-2026_231751_cad onshape com" src="https://github.com/user-attachments/assets/c9ebf168-6433-4ae9-af2c-53f9248ae252" />
+
+
+Funmi: While getting started on code, I noticed we didn't have a button on the remote nwither did we have a way to switch btwn our idea of remote and auto mode... so I sourced and added a new button to switch between modes... 
+i also updated and re-wired thebutton in the pcb w some CRAZY LONG WIRE!!!!
+
+Then I implemented the code to achieve that! Also fixed my teammate's wiring of the switch I added (cuz he wired it wrongly)!
+
+
+STAYED UP TO 5 PM DOING CODE :sob:!!! But yh, I added functionality for eahc of the modules and stuff! for each folder, config.h has the pin mappings, and i created functions for the necessary things in components.h and cpp, and then the main ino code for each!
+
+i had to search up how the motors actually function in the first place (the throttle + and - steering thing). we're done w code and everything. was supposed to brand our CAD a bit, but Onshape was not cooperating w me this time so my teammate got that!!
+
+Timelapse: https://lapse.hackclub.com/timelapse/W_IRJIpmLHAP
+
+![alt text](images/remote-pcb-completed.png)
+
+![alt text](images/mode-button.png)
+
+My teammate later changed the button because we were both arguing on how it should be connected!
+
+![alt text](images/new-mode-btn.png)
+
+ELON MUSK'S NEW CAR GOT NOTHING ON THIS!
+
+![alt text](images/assembled-car.png)
+
+![alt text](images/remote-assembly.png)

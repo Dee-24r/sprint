@@ -1,6 +1,16 @@
 # Sprint: An RC messenger car powered by the ESP32-S3 and featuring a LORA remote control!
 
+### ELON MUSK'S FLYING CAR GOT NOTHING ON US!
+![alt text](images/assembled-car.png)
+
+![alt text](image.png)
+
 ![alt text](images/mainboard_3d_pcb.png)
+
+![alt text](images/remote-assembly.png)
+
+![alt text](images/remote-pcb-wip.png)
+
 
 # Key Features:
 |Features|Model|

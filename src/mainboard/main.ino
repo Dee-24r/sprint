@@ -9,7 +9,7 @@ MainboardData mainboard_data;
 
 enum carMode{MODE_MANUAL = 0, MODE_AUTO = 1};
 
-DrivingMode currentMode = MODE_MANUAL;
+carMode currentMode = MODE_MANUAL;
 bool lastButtonState = false;
 
 
@@ -53,20 +53,29 @@ void loop(){
     lastButtonState = remote_data.modeButton;
 
     if (currentMode == MODE_MANUAL){
-        if(mainboard_data.obstacleFront && remote_data.throttle > 0){
+        f(mainboard_data.obstacleFront && remote_data.throttle > 0){
             stopMotors();
-        }
-        else{
+        } else {
             move(remote_data.throttle, remote_data.steering);
         }
-    }
-    else{
-        if(!mainboard_data.obstacleFront)
+    } else {//AUTO
+        if(!mainboard_data.obstacleFront){
             move(150, 0);//just move forward..
-        else
+        }else{
+            if(!mainboard_data.obstacleLeft)
+                move(80, -40);
+            if(!mainboard_data.obstacleRight)
+                move(80, 40)
+        }
+
+        if(mainboard_data.obstacleLeft)
+            move(80, 40);
+        else if(mainboard_data.obstacleRight)
+            move(80, -40);
+        
             move(-150, 0);//reverse!
             move(20, 70);//idk, will fix this later
     }
-
+    
     delay(20);
 }
