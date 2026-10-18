@@ -10,8 +10,6 @@
 
 ![alt text](images/remote-assembly.png)
 
-![alt text](images/remote-pcb-wip.png)
-
 
 # Key Features:
 |Features|Model|
