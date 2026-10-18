@@ -182,3 +182,14 @@ I'm currently working on code as we speak.. and my teammate as u can see from th
 
 Timelapse: https://lapse.hackclub.com/timelapse/BCGtKtVb4Dlr
 https://lapse.hackclub.com/timelapse/Op9Bf4Mek1gY
+
+# 10/17/2026 Finished all CAD + added switch to remote!! (Arya: 4hrs 30mins)
+
+Arya: Today, I continued with working on the assembly of the mainboard enclosure, and made some changes, and managed to finish it! I also started and finished all CAD for the remote as well! I started off with the enclosure of the mainboard, where I finished assembling and I got some suggestions on the case, especially to make the obstacle avoidance sensor not just plainly stick out. I extended the parts so that the area around the obstacle avoidance to fill them up. I then continued with it and finished it and then moved on to the remote. I started off with making the inner outline 1mm bigger on each side than the PCB and then decided to do a thinner outline so I made an outer rectangle that was 10mm bigger on each side so that there would be a 5mm gap on all 4 sides. We also added a switch to the PCB for the remote to enable and disable the self-driving mode. I then also assembled it so that I could fine tune the holes for the sides. I went back and forth and perfectly tuned the holes for the USB-C port, power switch along with the autopilot switch. I then made a top cover that exposed the display and the joystick. I then assembled everything on the remote that would be visible and then we are finished with all the CAD! Oh, and also, I added a hole for the USB-C port and the power switch since I totally forgot about that yesterday.
+
+Lapse: https://lapse.hackclub.com/timelapse/mDmLwPSM3Rq6
+
+<img width="814" height="691" alt="Screenshot_17-10-2026_23181_cad onshape com" src="https://github.com/user-attachments/assets/4988d91a-7e86-40b9-b4ed-15e8257ee1b1" />
+<img width="832" height="628" alt="Screenshot_17-10-2026_231727_cad onshape com" src="https://github.com/user-attachments/assets/8f9807b3-e009-4fc0-9604-ac4abd80f507" />
+<img width="954" height="430" alt="Screenshot_17-10-2026_231736_cad onshape com" src="https://github.com/user-attachments/assets/6e501080-9aa4-4ad2-8535-044d5e524ca4" />
+<img width="1010" height="716" alt="Screenshot_17-10-2026_231751_cad onshape com" src="https://github.com/user-attachments/assets/c9ebf168-6433-4ae9-af2c-53f9248ae252" />
