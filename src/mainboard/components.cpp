@@ -10,14 +10,14 @@ void initialise(){
     pinMode(R_MOTOR_B, OUTPUT);
 
     pinMode(FRONT_OBST, INPUT);
-    PinMode(LEFT_OBST, INPUT);
+    pinMode(LEFT_OBST, INPUT);
     pinMode(RIGHT_OBST, INPUT);
 }
 
 void moveMotor(int motorA, int motorB, int speed){
     if (speed > 0){
         analogWrite(motorA, speed);
-        digitalWrite(motorB, LOW)
+        digitalWrite(motorB, LOW);
     }
 
     else if (speed < 0){
@@ -44,7 +44,7 @@ void move(int throttle, int steering){
 }
 
 bool retObstacle(int obstacleSensor){
-    return digitalRead(OBST_PIN);
+    return digitalRead(obstacleSensor);
 }
 
 float readBatteryVoltage(){
@@ -52,6 +52,13 @@ float readBatteryVoltage(){
     float voltage = (adc/4095.0f) * 3.3f *1.47f;
 
     return voltage;
+}
+
+void stop(){
+    digitalWrite(L_MOTOR_A, LOW);
+    digitalWrite(L_MOTOR_B, LOW);
+    digitalWrite(R_MOTOR_A, LOW);
+    digitalWrite(R_MOTOR_B, LOW);
 }
 
 

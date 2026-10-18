@@ -10,5 +10,5 @@ struct MainboardData{
 struct RemoteData{
     int throttle;
     int steering;
-    bool changeMode;
+    bool modeButton;
 }
