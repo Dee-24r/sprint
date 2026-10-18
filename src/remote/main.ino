@@ -20,7 +20,7 @@ void setup(){
     
     initialiseOLED();
 
-    Wifi.mode(WIFI_STA);
+    WiFi.mode(WIFI_STA);
     if(esp_now_init() != ESP_OK){
         Serial.println("ESP-NOW INITIALISATION FAILED!");
         return;
@@ -42,15 +42,17 @@ void setup(){
 void loop(){
     remote_data.throttle = readThrottle();
     remote_data.steering = readSteering();
-    remote_data.modeButton = readMode();
+    buttonClicked = readMode();
 
     if(remote_data.modeButton && !lastButtonState){
         localAutoMode = !localAutoMode;
+    }else{
+        lastButtonState = remote_data.modeButton;
     }
-    lastButtonState = remote_data.modButton;
-
+    
+    remote_data.modeButton = localAutoMode;
     esp_now_send(carMacAddress, (uint8_t*)&remote_data, sizeof(remote_data));
-    print_OLED(mode, remote_data.throttle, remote_data.steering);
+    print_OLED(remote_data.modeButton, remote_data.throttle, remote_data.steering);
 
     delay(20);
 }

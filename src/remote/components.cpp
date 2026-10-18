@@ -21,8 +21,7 @@ int readSteering(){
 }
 
 bool readMode(){
-    return !digitalRead(MODE_BTN);
-
+    return digitalRead(MODE_BTN);
 }
 
 //for reference, searched up ssd1306 code from different sources, and wrote mu version for it.

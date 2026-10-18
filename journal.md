@@ -182,6 +182,10 @@ I'm currently working on code as we speak.. and my teammate as u can see from th
 Timelapse: https://lapse.hackclub.com/timelapse/BCGtKtVb4Dlr
 https://lapse.hackclub.com/timelapse/Op9Bf4Mek1gY
 
+![alt text](images/batt_measurement.png)
+
+![alt text](images/usbc-cap.png)
+
 # 10/17/2026 Finished all CAD + added switch to remote!! (Arya: 4hrs 30mins)
 
 Arya: Today, I continued with working on the assembly of the mainboard enclosure, and made some changes, and managed to finish it! I also started and finished all CAD for the remote as well! I started off with the enclosure of the mainboard, where I finished assembling and I got some suggestions on the case, especially to make the obstacle avoidance sensor not just plainly stick out. I extended the parts so that the area around the obstacle avoidance to fill them up. I then continued with it and finished it and then moved on to the remote. I started off with making the inner outline 1mm bigger on each side than the PCB and then decided to do a thinner outline so I made an outer rectangle that was 10mm bigger on each side so that there would be a 5mm gap on all 4 sides. We also added a switch to the PCB for the remote to enable and disable the self-driving mode. I then also assembled it so that I could fine tune the holes for the sides. I went back and forth and perfectly tuned the holes for the USB-C port, power switch along with the autopilot switch. I then made a top cover that exposed the display and the joystick. I then assembled everything on the remote that would be visible and then we are finished with all the CAD! Oh, and also, I added a hole for the USB-C port and the power switch since I totally forgot about that yesterday.
