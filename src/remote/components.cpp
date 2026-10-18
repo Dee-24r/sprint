@@ -21,7 +21,7 @@ int readSteering(){
 }
 
 bool readMode(){
-    return digitalRead(MODE_BTN);
+    return !digitalRead(MODE_BTN);
 }
 
 //for reference, searched up ssd1306 code from different sources, and wrote mu version for it.
@@ -49,16 +49,16 @@ void print_OLED(bool isAutoMode, int throttle, int steering){
     display.setCursor(20, 5);
 
 
-    display.print(F("SPRINT!"))
+    display.print(F("SPRINT!"));
     display.drawLine(0, 16, 128, 16, SSD1306_WHITE);
 
     display.setTextSize(2);
     display.SetCursor(10,28);
 
     if (isAutoMode)
-        display.print(F("AUTO MODE"))
+        display.print(F("AUTO MODE"));
     else
-        display.print(F("MANUAL MODE!"))
+        display.print(F("MANUAL MODE!"));
 
     display.drawLine(0, 52, 128, 52, SSD1306_WHITE);
 
@@ -67,7 +67,7 @@ void print_OLED(bool isAutoMode, int throttle, int steering){
     display.println(throttle);
 
     display.setCursor(10,85);
-    display.print(F("Steering: "))
+    display.print(F("Steering: "));
     display.println(steering);
 
     display.display();

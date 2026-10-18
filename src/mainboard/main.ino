@@ -42,18 +42,18 @@ void loop(){
     if (remote_data.modeButton && !lastButtonState){
         if(currentMode == MODE_MANUAL) {
             currentMode = MODE_AUTO;
-            Serial.println("Auto Mode!")
+            Serial.println("Auto Mode!");
         }
         else{
             currentMode = MODE_MANUAL;
-            Serial.println("Remote Mode")
+            Serial.println("Remote Mode");
         }
     }
 
     lastButtonState = remote_data.modeButton;
 
     if (currentMode == MODE_MANUAL){
-        f(mainboard_data.obstacleFront && remote_data.throttle > 0){
+        if(mainboard_data.obstacleFront && remote_data.throttle > 0){
             stopMotors();
         } else {
             move(remote_data.throttle, remote_data.steering);
@@ -65,7 +65,7 @@ void loop(){
             if(!mainboard_data.obstacleLeft)
                 move(80, -40);
             if(!mainboard_data.obstacleRight)
-                move(80, 40)
+                move(80, 40);
         }
 
         if(mainboard_data.obstacleLeft)

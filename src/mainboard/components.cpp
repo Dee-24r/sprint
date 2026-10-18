@@ -54,7 +54,7 @@ float readBatteryVoltage(){
     return voltage;
 }
 
-void stop(){
+void stopMotors(){
     digitalWrite(L_MOTOR_A, LOW);
     digitalWrite(L_MOTOR_B, LOW);
     digitalWrite(R_MOTOR_A, LOW);
