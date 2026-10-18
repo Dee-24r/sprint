@@ -8,3 +8,5 @@
 
 #define BATT_ADC 7
 #define GYRO_INT 17
+
+#define MODE_BTN 6
