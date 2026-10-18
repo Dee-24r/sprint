@@ -1,23 +1,32 @@
-#include <Wifi.h>
+#include <WiFi.h>
 #include <esp_now.h>
 #include "config.h"
 #include "components.h"
 #include "../data.h"
 
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+
 uint8_t carMacAddress[] = {/*fklmklkv*/}
 RemoteData remote_data;
 
+bool localAutoMode = false;
+bool lastButtonState = false;
+
 void setup(){
-    Serial.begin(11520);
+
+    Serial.begin(115200);
     pinMode(MODE_BTN, INPUT_PULLUP);
     
+    initialiseOLED();
+
     Wifi.mode(WIFI_STA);
     if(esp_now_init() != ESP_OK){
         Serial.println("ESP-NOW INITIALISATION FAILED!");
         return;
     }
     
-    es_now_peer_info_t carInfo = {}
+    esp_now_peer_info_t carInfo = {};
     memcpy(carInfo.peer_addr, carMacAddress, 6);
     carInfo.channel = 0;
     carInfo.encrypt = false;
@@ -29,12 +38,15 @@ void setup(){
 
     Serial.println("Connected!");
 }
+
 void loop(){
     remote_data.throttle = readThrottle();
     remote_data.steering = readSteering();
     remote_data.modeButton = readMode();
 
+
     esp_now_send(carMacAddress, (uint8_t*)&remote_data, sizeof(remote_data));
+    print_OLED(mode, throttle, steering);
 
     delay(20);
 }
