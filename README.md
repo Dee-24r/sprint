@@ -29,7 +29,7 @@ Sprint is a smart, ESP32-powered, RC car that features self-driving capabilities
 |Communication/Data Transfer|LoRa|
 |LDO|TPS63031DSKR buck boost|
 |Battery Charger|TP4056|
-|Motors|N20|
+|Motors|TT Motors|
 |Motor Drivers|L9110S|
 |USB-C Port|MC-403L68-Z10|
 |Obstacle sensors||
