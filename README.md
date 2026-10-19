@@ -34,4 +34,4 @@ Sprint is a smart, ESP32-powered, RC car that features self-driving capabilities
 |USB-C Port|MC-403L68-Z10|
 |Obstacle sensors||
 
-# Note: This project was made with the assistance of some Artificial Intellegence (AI) tools.
+### We used AI tools for researching to: cross-check our schematics, understand technical details and research in general!
