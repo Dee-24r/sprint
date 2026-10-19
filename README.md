@@ -74,8 +74,4 @@ Prices shown are the BOM unit prices from the LCSC/JLCPCB export in the repo. Bl
 
 Total BOM cost (combined Mainboard + Remote, LCSC prices where available): $2.52 USD
 
-Notes:
-- Total Price = Unit Price × Quantity. Values rounded to 4 decimal places for per-line totals and to 2 decimal places for the combined total.
-- Items with missing unit prices are shown as "N/A" and excluded from the numeric total. If you want me to look those up on other distributors (DigiKey, Mouser) I can.
-
 ### We used AI tools for researching to: cross-check our schematics, understand technical details and research in general!
