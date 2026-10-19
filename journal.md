@@ -223,3 +223,13 @@ ELON MUSK'S NEW CAR GOT NOTHING ON THIS!
 ![alt text](images/assembled-car.png)
 
 ![alt text](images/remote-assembly.png)
+
+# 10/18/2026 Finished project!! (Arya: 2hrs)
+
+Today, we managed to finish up the code for the RC car and the remote and I then worked on the GitHub repository for the project. I actually went back to the PCB for the remote and I changed the button for the mode to a tactile switch that does not stay down as that is what we coded it for. I did find a decent tactile switch that was angled at 90 degrees, and I then replaced the old one and re-wired this one. I also branded both of the cases in Onshape! Other than that, we managed to be completely done with it today! We did have some trouble with getting the code done, and we did use AI to double check the code of the project as well. I then worked on getting everything to the main repository so that we can ship this project one last time!
+
+Laspe: https://lapse.hackclub.com/timelapse/zGB-mHyk3JlL
+
+<img width="738" height="323" alt="image" src="https://github.com/user-attachments/assets/17350b59-77c5-4bde-9d53-f03a011429b9" />
+<img width="1415" height="525" alt="image" src="https://github.com/user-attachments/assets/aaa77b77-016f-45a2-aa66-fe2ae0aa2cac" />
+<img width="1290" height="547" alt="image" src="https://github.com/user-attachments/assets/bd7997a1-61eb-4763-bc5f-a3a3e2bfb15f" />
