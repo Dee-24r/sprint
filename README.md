@@ -11,6 +11,7 @@ Sprint is a smart, ESP32-powered, RC car that features self-driving capabilities
 ![alt text](images/mainboard_3d_pcb.png)
 
 <img width="851" height="418" alt="image" src="https://github.com/user-attachments/assets/5eb0d82e-6e39-4c9d-bc56-2a67133aff00" />
+<img width="2160" height="2321" alt="3D_PCB2_2026-10-18" src="https://github.com/user-attachments/assets/58c374a0-a546-4b8f-9618-25819cf62236" />
 
 # Schematics:
 <img width="2411" height="1672" alt="SCH_Sprint-Mainboard_1-Schematic-Sprint-Mainboard_2026-10-18" src="https://github.com/user-attachments/assets/ce024830-c842-4f26-b777-8b637402eb93" />
@@ -28,9 +29,9 @@ Sprint is a smart, ESP32-powered, RC car that features self-driving capabilities
 |Communication/Data Transfer|LoRa|
 |LDO|TPS63031DSKR buck boost|
 |Battery Charger|TP4056|
-|Motors|N20|
+|Motors|TT Motors|
 |Motor Drivers|L9110S|
 |USB-C Port|MC-403L68-Z10|
 |Obstacle sensors||
 
-# Note: This project was made with the assistance of some Artificial Intellegence (AI) tools.
+### We used AI tools for researching to: cross-check our schematics, understand technical details and research in general!
