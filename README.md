@@ -34,6 +34,16 @@ Sprint is a smart, ESP32-powered, RC car that features self-driving capabilities
 |USB-C Port|MC-403L68-Z10|
 |Obstacle sensors||
 
+## How to flash!
+
+- plug your board using a usb-c cable
+- hold the boot button down, press and release the reset button (whilc holding boot), then release boot!
+- in arduino -> tools -> board -> esp32 -> esp32s3 dev module
+- from usb-mode, select Hardware CDC and JTAG
+- then enable usb cdc on boot
+- click upload code (Arduino)
+Do this for both the remote and the mainboard!
+
 ## Combined BOM (Mainboard + Remote)
 
 Prices shown are the BOM unit prices from the LCSC/JLCPCB export in the repo. Blank values mean the source BOM did not populate a price or distributor part record.

@@ -1,4 +1,4 @@
-#include <Wifi.h>
+#include <WiFi.h>
 #include <esp_now.h>
 #include "../data.h"
 #include "config.h"
@@ -16,6 +16,7 @@ bool lastButtonState = false;
 void onDataReceive(const esp_now_recv_info_t *info, const uint8_t *data, int len){
     memcpy(&remote_data, data, sizeof(remote_data));
 }
+
 
 void setup(){
     Serial.begin(115200);
