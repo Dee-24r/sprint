@@ -1,4 +1,4 @@
-﻿"No.","Quantity","Comment","Designator","Footprint","Value","Manufacturer Part","Manufacturer","Supplier Part","Supplier","LCSC Price","JLCPCB Price"
+﻿"No.","Quantity","Comment","Designator","Footprint","Value","Manufacturer Part","Manufacturer","Supplier Part","Supplier","LCSC Price","JLCPCB Price/Other Source Price"
 "1","2","Test-Point","BAT+,GND","Test-Point-0.5mm","","","","","","1.9867",""
 "2","7","10uF","C1,C2,C3,C5,C6,C8,C9","C0603","10uF","TCC0603X7R106M6R3CT","CCTC(三环)","C53032292","LCSC","","0.0052"
 "3","1","100nF","C4","C0402","100nF","CGA0402X7R104K6R3GT","HRE(芯声)","C22435938","LCSC","","0.0005"
@@ -27,3 +27,5 @@
 "26","1","MC-403L68-Z10","USB1","USB-TYPE-C-SMD_MC-403L68-Z10","","MC-403L68-Z10","HANBO(汉博)","C47326496","LCSC","","0.0089"
 "27","5","PCB","-","-","-","-","JLCPCB","-","JLCPCB","-","$5.68"
 "28","1","LiPo Battery 2000mAh","-","https://www.aliexpress.us/item/3256802733222186.html","-","-","-","-","AliExpress","-","$6.99"
+"29","1 Set","4 Sets of TT motors and wheels","-","https://www.aliexpress.us/item/3256809725271346.html","-","-","-","-","AliExpress","-","$3.95"
+"29","5 Pack","IR Obstable Avoidance Sensors","-","https://www.aliexpress.us/item/3256806612336696.html","-","-","-","-","AliExpress","-","$2.95"
