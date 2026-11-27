@@ -1,4 +1,3 @@
-﻿```csv
 "No.","Quantity","Comment","Designator","Footprint","Value","Manufacturer Part","Manufacturer","Supplier Part","Supplier","LCSC Price","JLCPCB Price/Other Source Price"
 "1","4","Test-Point","BAT+,GND,BAT+,GND","Test-Point-0.5mm","","","","","","1.9867",""
 "2","12","10uF","C1,C2,C3,C5,C6,C8,C9,C1,C2,C3,C5,C6","C0603","10uF","TCC0603X7R106M6R3CT","CCTC(三环)","C53032292","LCSC","","0.0052"
@@ -41,7 +40,5 @@
 "39","1","MPU6050 Module","-","https://www.aliexpress.us/item/3256809871479525.html","-","-","-","-","AliExpress","-","$1.99"
 "40","1 Set","Set of M2 screws","-","https://www.aliexpress.us/item/2255799870438450.html","-","-","-","-","AliExpress","-","$2.90"
 "41","1","SSD1306 128x64 OLED","-","https://www.aliexpress.us/item/3256805954920554.html","-","-","-","-","AliExpress","-","$2.49"
-"","","TOTAL (priced items only)","","","","","","","","","$50.09"
-```
-
-**Total: $50.09.**
+"42", "1", "3D Prints", "", "", "", "", "", "", "Printing Legion", "$15"
+"","","TOTAL (priced items only)","","","","","","","","","$65.09"
